@@ -1,0 +1,13 @@
+{
+    "name": "continuousphptest/php-dependency",
+    "require": {
+        "php": ">=5.5",
+        "cphp-test/php-private-dependency": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:continuousphp/php-private-dependency.git"
+        }
+    ]
+}

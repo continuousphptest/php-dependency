@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2c7717e8dc1d43cdeae7b79e12ec37ec",
+    "packages": [
+        {
+            "name": "cphp-test/php-private-dependency",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:continuousphp/php-private-dependency.git",
+                "reference": "33f16034408ce0822d5f9d166b7572848b6eda52"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Continuous\\Test\\Platform\\PrivateDependency\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Pierre Tomasina",
+                    "email": "tomasinap@gmail.com"
+                }
+            ],
+            "description": "Private library to test composer dependency",
+            "time": "2017-04-09 12:31:35"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cphp-test/php-private-dependency": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5"
+    },
+    "platform-dev": []
+}
